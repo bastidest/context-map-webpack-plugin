@@ -1,0 +1,30 @@
+{
+  "name": "context-map-webpack-plugin",
+  "version": "0.1.0",
+  "description": "Webpack plugin to map dynamic (thirdparty) dependencies to a static context map.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bastidest/context-map-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "webpack-plugin",
+    "context",
+    "import",
+    "require"
+  ],
+  "author": "Sebastian Hiebl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bastidest/context-map-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/bastidest/context-map-webpack-plugin#readme",
+  "peerDependencies": {
+    "webpack": "^4.0.0 || ^5.0.0"
+  }
+}
