@@ -6,7 +6,7 @@
 ## Install
 
 ```bash
-npm install context-map-webpack-plugin --save-dev
+npm install -D context-map-webpack-plugin
 ```
 
 ## Why do I need it / What does it do?
@@ -22,7 +22,7 @@ created.
 
 A dynamic import that cannot be resolved might look like this:
 
-```
+```js
 // ...
 var FILES = UglifyJS.FILES = [
     "../lib/utils.js",
